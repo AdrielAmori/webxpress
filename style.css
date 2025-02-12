@@ -9,6 +9,7 @@ body{
 }
 
 .container{
+
   display: flex;
   flex-direction: column;
   margin-left: 120px;
@@ -93,13 +94,14 @@ hr {
 
 #sectionProblem{
   display: grid;
-  grid-auto-flow: column;
-  column-gap: 10px;
   grid-template-columns: 1fr 1fr;
-  height: 100%;
+  gap: 100px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 100px;
+  max-width: 1200px; /* Define uma largura máxima */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
 }
 
 #imgProblem img{
