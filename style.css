@@ -269,3 +269,41 @@ hr {
 #beneficio2 img{
   width: 550px;
 }
+
+#testemunhosContainer img{
+  border-radius: 50%;
+  width: 140px;
+  height: 150px;
+}
+
+#testemunhosContainer{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 50px;
+  margin: 100px auto;
+  height: 300px;
+}
+
+.container #Contato{
+  height: 340px;
+}
+
+#Contato input{
+  width: 350px;
+  padding: 13px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#Contato input::placeholder{
+  color: #000;
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.container #Contato button{
+  width: 380px;
+}
